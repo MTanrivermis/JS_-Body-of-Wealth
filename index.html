@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to Body Mass Index Calculate</h1>
+    </header>
+
+
+
+
+    <div class="userInfo">
+
+        <p id="value"></p>
+        <br>
+        <p id="result"></p>
+        <br>
+        <p id="prompts"></p>
+        <br>
+        <p id="error"></p>
+
+    </div>
+    
+    <br>
+
+    <form action="" id="bodyForm">
+
+        <div class="bodyW">
+            <label for="weight">Weight (kg)</label>
+            <br>
+            <i class="fa-solid fa-scale-unbalanced-flip"></i><input type="number" name="weight" id="weight">
+        </div>
+
+        <div class="bodyH">
+            <label for="height">Height (cm)</label>
+            <br>
+            <i class="fa-solid fa-text-height"></i><input type="number" name="height" id="height"></i>
+        </div>
+
+        <div class="btn">
+            <button type="submit" id="mybutton">Calculate</button>
+        </div>
+
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

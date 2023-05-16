@@ -1,0 +1,148 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: green;
+    font-family: sans-serif;
+}
+
+
+header{
+    padding: 30px;
+
+}
+
+body{
+    /* background-color: rgb(165, 107, 107); */
+    background-image: url(assets/img/healthcare.jpg);
+    background-size:auto;
+    background-position: center;
+  
+}
+
+
+
+form{
+    margin-top: 200px;
+    display: inline-block;
+    background-color: rgba(202, 206, 206, 0.555);
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.bodyW{
+    display: inline-block;
+    padding: 25px;
+    
+}
+
+label{
+
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+input{
+
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+
+
+.bodyH{
+
+    display: inline-block;
+    padding: 25px;
+}
+
+.bodyH i{
+
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.bodyW i{
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.btn{
+
+    margin-top: 100px;
+}
+
+.btn button{
+
+    width: 250px;
+    height: 35px;
+    color: green;
+    font-weight: 600;
+    border: 1px solid green;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn button:hover{
+
+    border: none;
+    transition: 0.6s;
+    border: none;
+    background-color: #03f417;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 5px #03f417,
+                0 0 25px #03f417,
+                0 0 50px #03f417,
+                0 0 100px #03f417;
+}
+
+.btn button:hover::after{
+
+    content: "❤";
+}
+
+#value{
+    text-align: center;
+    font-size: 40px;
+    width: 150px;
+    /* background-color: rgba(111,125,164,0.5); */
+    display: inline-block;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+#error{
+    font-size: 30px;
+    color: red;
+}
+
+#result{
+    color: black;
+    font-size: 18px;
+}
+
+#prompts{
+    color: black;
+    font-size: 18px;
+}
+
+.userInfo{
+    display: inline-block;
+    padding: 50px;
+}
+
